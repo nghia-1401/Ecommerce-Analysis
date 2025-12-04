@@ -68,6 +68,7 @@ Doanh thu theo khách hàng nằm trong khoảng $6,986.5 (77 giao dịch) đế
 ### 1. Doanh thu theo vị trí cửa hàng
 * Doanh thu giữa các division tương đối ổn định qua các năm.
 * Ở cấp độ upazila, sự chênh lệch giữa các cửa hàng không lớn.               
+   
 **Insights:**
    * Sự phân bổ doanh thu khá đồng đều cho thấy năng lực kinh doanh không phụ thuộc quá nặng vào khu vực riêng lẻ, giảm rủi ro địa lý.
    * Tuy nhiên, việc Dhaka chiếm tỷ trọng cao gợi ý tiềm năng mở rộng hoặc cải thiện hiệu suất ở các vùng có doanh thu thấp hơn.
@@ -79,13 +80,14 @@ Doanh thu theo khách hàng nằm trong khoảng $6,986.5 (77 giao dịch) đế
    * **Coffee K-Cups:** giá trung bình cao (~46.5 USD), doanh thu tương đương Soda do ít danh mục con hơn.
 * Một số sản phẩm nổi bật về sản lượng:
    * *Muscle Milk Protein Shake Van. 11oz* (45,665 đơn).
-   * *Pepsi 12oz (46,837)*, *Diet Coke 12oz (45,202)*, *Coke Classic 12oz (45,501)*, *Sprite 12oz (45,140)*.                    
+   * *Pepsi 12oz (46,837)*, *Diet Coke 12oz (45,202)*, *Coke Classic 12oz (45,501)*, *Sprite 12oz (45,140)*.
+   
 **Insights:**
    * Doanh thu khác biệt chủ yếu do giá, không phải sản lượng — cho thấy cơ hội định giá linh hoạt để tối ưu doanh thu tổng.
    * Các sản phẩm có sản lượng cao mang tính đại chúng, hỗ trợ tốt cho mục tiêu lan tỏa thương hiệu.
    * **Coffee K-Cups** (giá trị cao, ít sản phẩm con) là cơ hội để phát triển mảng cao cấp hoặc sản phẩm bundling (combo).
 
-### 4. Phân khúc Khách hàng 
+### 3. Phân khúc Khách hàng 
 Dựa trên mô hình RFM, tập khách hàng (9,191 người) chủ yếu được chia thành các nhóm hành vi:
 
 | Phân khúc | Đặc điểm hành vi | Insight |
