@@ -3,7 +3,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Data Model](https://img.shields.io/badge/Data_Model-Star_Schema-blue)
-![Tools](https://img.shields.io/badge/Tools-Python_%7C_SQL_%7C_PowerBI-orange)
+![Tools](https://img.shields.io/badge/Tools-PowerBI-orange)
 
 Dự án này tập trung vào việc xây dựng Kho dữ liệu (Data Warehouse) theo mô hình **Star Schema** và phân tích hiệu suất kinh doanh của một chuỗi bán lẻ (giai đoạn 2014–2021). Mục tiêu là chuyển đổi dữ liệu thô thành các insight chiến lược về hành vi khách hàng, hiệu suất sản phẩm và xu hướng doanh thu.
 
