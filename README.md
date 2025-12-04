@@ -42,13 +42,13 @@ Dữ liệu được tổ chức theo mô hình **Star Schema** để tối ưu 
 
 Dựa trên dữ liệu phân tích từ hơn **1 triệu giao dịch**, dự án đã tổng hợp các chỉ số chính:
 
-* **Tổng doanh thu (2014-2021):** $105.4 Triệu USD.
+* **Tổng doanh thu (2014-2021):** $105.4M.
 * **Tổng sản lượng:** ~6 Triệu đơn vị sản phẩm.
 * **Giá trị đơn hàng trung bình (AOV):** $105.4.
-* **Tăng trưởng:** Doanh thu tăng trưởng 5.3% vào năm 2015, sau đó duy trì mức ổn định (dao động ±1%) quanh mốc 14–15 triệu USD/năm.
+* **Tăng trưởng:** Doanh thu tăng trưởng 5.3% vào năm 2015, sau đó duy trì mức ổn định (dao động ±1%) quanh mốc $14 – $15M mỗi năm.
 
 ### 1. Xu hướng doanh thu
-* **Theo Năm:** Doanh thu giao động ổn định từ 14-15 triệu USD mỗi năm.
+* **Theo Năm:** Doanh thu giao động ổn định từ $14 – $15M mỗi năm.
 * **Theo Quý:** Doanh thu tăng dần từ Q1 ($26M) và đạt đỉnh vào **Q3 ($26.7M)** trước khi giảm nhẹ vào Q4.
 * **Theo Tháng:** Nửa đầu năm thị trường biến động mạnh, trong khi nửa cuối năm doanh thu ổn định hơn.
 
@@ -67,7 +67,7 @@ Doanh thu theo khách hàng nằm trong khoảng $6,986.5 (77 giao dịch) đế
 
 ### 1. Doanh thu theo vị trí cửa hàng
 * Doanh thu giữa các division tương đối ổn định qua các năm.
-* Ở cấp độ upazila, sự chênh lệch giữa các cửa hàng không lớn.
+* Ở cấp độ upazila, sự chênh lệch giữa các cửa hàng không lớn.               
 **Insights:**
    * Sự phân bổ doanh thu khá đồng đều cho thấy năng lực kinh doanh không phụ thuộc quá nặng vào khu vực riêng lẻ, giảm rủi ro địa lý.
    * Tuy nhiên, việc Dhaka chiếm tỷ trọng cao gợi ý tiềm năng mở rộng hoặc cải thiện hiệu suất ở các vùng có doanh thu thấp hơn.
@@ -79,7 +79,7 @@ Doanh thu theo khách hàng nằm trong khoảng $6,986.5 (77 giao dịch) đế
    * **Coffee K-Cups:** giá trung bình cao (~46.5 USD), doanh thu tương đương Soda do ít danh mục con hơn.
 * Một số sản phẩm nổi bật về sản lượng:
    * *Muscle Milk Protein Shake Van. 11oz* (45,665 đơn).
-   * *Pepsi 12oz (46,837)*, *Diet Coke 12oz (45,202)*, *Coke Classic 12oz (45,501)*, *Sprite 12oz (45,140)*.
+   * *Pepsi 12oz (46,837)*, *Diet Coke 12oz (45,202)*, *Coke Classic 12oz (45,501)*, *Sprite 12oz (45,140)*.                    
 **Insights:**
    * Doanh thu khác biệt chủ yếu do giá, không phải sản lượng — cho thấy cơ hội định giá linh hoạt để tối ưu doanh thu tổng.
    * Các sản phẩm có sản lượng cao mang tính đại chúng, hỗ trợ tốt cho mục tiêu lan tỏa thương hiệu.
