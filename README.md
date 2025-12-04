@@ -1,15 +1,27 @@
 # Ecommerce-Analysis
-# 🛒 Retail Sales Analysis & Data Warehousing Project
+# 🛒 Retail Sales Analysis 
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Data Model](https://img.shields.io/badge/Data_Model-Star_Schema-blue)
 ![Tools](https://img.shields.io/badge/Tools-PowerBI-orange)
 
-Dự án này tập trung vào việc xây dựng Kho dữ liệu (Data Warehouse) theo mô hình **Star Schema** và phân tích hiệu suất kinh doanh của một chuỗi bán lẻ (giai đoạn 2014–2021). Mục tiêu là chuyển đổi dữ liệu thô thành các insight chiến lược về hành vi khách hàng, hiệu suất sản phẩm và xu hướng doanh thu.
+Dự án này tập trung vào việc phân tích hiệu suất kinh doanh của một chuỗi bán lẻ (giai đoạn 2014–2021). Mục tiêu là chuyển đổi dữ liệu thô thành các insight chiến lược về hành vi khách hàng, hiệu suất sản phẩm và xu hướng doanh thu.
 
 ---
 
-## 📖 Tổng Quan (Executive Summary)
+## 🎯 Mục tiêu Phân tích
+
+Dự án này được thực hiện nhằm giải quyết 4 câu hỏi kinh doanh cốt lõi:
+
+1.  **Đánh giá Sức khỏe Kinh doanh:** Xu hướng doanh thu thay đổi như thế nào theo thời gian (mùa vụ, năm)? Đâu là thời điểm vàng để tung ra các chiến dịch khuyến mãi?
+2.  **Tối ưu hóa Danh mục Sản phẩm:** Xác định đâu là sản phẩm chủ lực mang lại lợi nhuận và đâu là sản phẩm thu hút khách hàng?
+3.  **Hiệu suất Cửa hàng & Địa lý:** Đánh giá chênh lệch hiệu suất giữa khu vực thủ đô (Dhaka) và các tỉnh khác. Cần phân bổ nguồn lực ra sao?
+4.  **Thấu hiểu Khách hàng:** Phân khúc khách hàng dựa trên hành vi mua sắm (RFM) để thiết kế chương trình Loyalty phù hợp.
+
+
+---
+
+## 📖 Tổng Quan 
 
 Dựa trên dữ liệu phân tích từ hơn **1 triệu giao dịch**, dự án đã tổng hợp các chỉ số chính:
 
@@ -20,9 +32,9 @@ Dựa trên dữ liệu phân tích từ hơn **1 triệu giao dịch**, dự á
 
 ---
 
-## 📂 Kiến Trúc Dữ Liệu (Data Architecture)
+## 📂 Cấu Trúc Dữ Liệu 
 
-Dữ liệu được tổ chức theo mô hình **Star Schema** để tối ưu hóa cho việc truy vấn phân tích (OLAP), bao gồm 1 bảng Fact trung tâm và 5 bảng Dimension vệ tinh:
+Dữ liệu được tổ chức theo mô hình **Star Schema** để tối ưu hóa cho việc truy vấn phân tích, bao gồm 1 bảng Fact trung tâm và 5 bảng Dimension vệ tinh:
 
 ### 1. Fact Table
 * **`fact_table.csv`**: Chứa dữ liệu giao dịch chi tiết.
@@ -38,23 +50,23 @@ Dữ liệu được tổ chức theo mô hình **Star Schema** để tối ưu 
 
 ---
 
-## 📊 Phân Tích & Insights Chính (Key Insights)
+## 📊 Phân Tích & Insights Chính
 
-### 1. Xu hướng doanh thu (Temporal Trends)
+### 1. Xu hướng doanh thu
 * **Theo Quý:** Doanh thu có tính mùa vụ rõ rệt, tăng dần từ Q1 ($26M) và đạt đỉnh vào **Q3 ($26.7M)** trước khi giảm nhẹ vào Q4.
 * **Theo Tháng:** Nửa đầu năm thị trường biến động mạnh, trong khi nửa cuối năm doanh thu ổn định hơn.
 
-### 2. Hiệu suất theo Địa lý (Store & Location)
+### 2. Hiệu suất theo Địa lý 
 * **Sự thống trị của Dhaka:** Khu vực Dhaka là động lực tăng trưởng chính với **$41 Triệu doanh thu**, vượt trội hoàn toàn so với các vùng khác (chỉ từ $6M – $20M).
 * **Tính ổn định:** Doanh thu giữa các vùng địa lý khác tương đối đồng đều, cho thấy hệ thống vận hành ổn định nhưng thiếu các điểm bứt phá mới ngoài thủ đô.
 
-### 3. Hiệu suất Sản phẩm (Product Performance)
+### 3. Hiệu suất Sản phẩm 
 * **Top Categories:** *Beverage – Energy/Protein* và *Food – Healthy* dẫn đầu, chiếm ~20% tổng doanh thu. Điều này phản ánh xu hướng tiêu dùng mạnh mẽ đối với các sản phẩm tốt cho sức khỏe.
 * **Volume vs. Value:**
     * *Traffic Drivers:* Các loại Soda (Pepsi, Coke) có giá thấp (~$10) nhưng sản lượng cực lớn (>45k đơn vị/loại).
     * *Profit Drivers:* Coffee K-Cups có giá trị cao (~$46.5) mang lại doanh thu lớn dù số lượng bán ra ít hơn.
 
-### 4. Phân khúc Khách hàng (Customer Segmentation)
+### 4. Phân khúc Khách hàng 
 Dựa trên mô hình RFM, tập khách hàng (9,191 người) được chia thành các nhóm hành vi:
 
 | Phân khúc | Đặc điểm hành vi | Insight |
@@ -65,11 +77,11 @@ Dựa trên mô hình RFM, tập khách hàng (9,191 người) được chia th�
 
 ---
 
-## 🚀 Khuyến Nghị Chiến Lược (Recommendations)
+## 🚀 Khuyến Nghị Chiến Lược
 
 Dựa trên các insight trên, dự án đề xuất các chiến lược sau:
 
-1.  **Chiến lược Sản phẩm (Bundling Strategy):**
+1.  **Chiến lược Sản phẩm:**
     * Kết hợp sản phẩm "Traffic" (Soda/Healthy Food) với sản phẩm "Lợi nhuận" (Coffee K-Cups) tạo thành các gói Combo Tiện lợi.
     * Mục tiêu: Tăng giá trị đơn hàng trung bình (AOV) và giới thiệu dòng sản phẩm cao cấp cho khách hàng phổ thông.
 
@@ -77,32 +89,15 @@ Dựa trên các insight trên, dự án đề xuất các chiến lược sau:
     * Giảm sự phụ thuộc vào Dhaka bằng cách đánh giá tiềm năng tại các division có doanh thu thấp ($6M-$10M).
     * Áp dụng quy trình vận hành của Top 10 Store tại Dhaka cho các cửa hàng hoạt động kém hiệu quả.
 
-3.  **Cá nhân hóa theo khách hàng (Retention):**
+3.  **Cá nhân hóa theo khách hàng:**
     * **Với Champions:** Triển khai đặc quyền VIP (ưu tiên thanh toán, quà sinh nhật) để giữ chân.
     * **Với Potential Loyalists:** Chương trình thưởng theo tần suất (Ví dụ: "Mua 3 lần/tháng nhận voucher") để thói quen mua sắm ổn định hơn.
     * **Với Emerging Loyalists:** Remarketing các sản phẩm Hot Deal trong vòng 30 ngày đầu tiên.
 
 ---
 
-## 🛠 Công cụ sử dụng (Tech Stack)
-
-* **Ngôn ngữ:** Python (Pandas, NumPy)
-* **Database:** SQL
-* **Visualization:** Power BI / Matplotlib
-* **IDE:** Jupyter Notebook / VS Code
-
-## 📝 Hướng dẫn sử dụng (How to run)
-
-1.  Clone repository này:
-    ```bash
-    git clone [https://github.com/your-username/retail-sales-analysis.git](https://github.com/your-username/retail-sales-analysis.git)
-    ```
-2.  Cài đặt các thư viện cần thiết:
-    ```bash
-    pip install pandas numpy matplotlib seaborn
-    ```
-3.  Chạy file phân tích (ví dụ `analysis.ipynb`) để xem quy trình xử lý dữ liệu và trực quan hóa.
-
+## 🛠 Công cụ sử dụng
+* **ETL & Visualization:** Power BI 
 ---
-*Author: [Tên của bạn]*
-*Contact: [Email/LinkedIn của bạn]*
+*Author: Huỳnh Hữu Nghĩa*
+*Contact: nghiahuynhhuu6@gmail.com*
