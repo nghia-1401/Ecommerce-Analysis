@@ -59,7 +59,7 @@ Dựa trên dữ liệu phân tích từ hơn **1 triệu giao dịch**, dự á
 * **Top Categories:** *Beverage – Energy/Protein* và *Food – Healthy* dẫn đầu, với doanh thu trung bình đạt khoảng $1.4 - $1.5M. Điều này phản ánh xu hướng tiêu dùng mạnh mẽ đối với các sản phẩm tốt cho sức khỏe.
 
 ### 4. Doanh thu theo khách hàng
-Doanh thu theo khách hàng nằm trong khoảng $6,986.5 (77 giao dịch) đến $17,104.5 (137 giao dịch): khách hàng chi tiêu cao hơn thường cũng có tần suất giao dịch cao hơn, cho thấy mối quan hệ khá rõ giữa loyalty và giá trị đóng góp.
+* Doanh thu theo khách hàng nằm trong khoảng $6,986.5 (77 giao dịch) đến $17,104.5 (137 giao dịch): khách hàng chi tiêu cao hơn thường cũng có tần suất giao dịch cao hơn, cho thấy mối quan hệ khá rõ giữa loyalty và giá trị đóng góp.
 
 ---
 
